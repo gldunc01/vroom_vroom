@@ -15,7 +15,7 @@ Credit: Oerlive.com
 
 Now which car will we/I choose?
 
-This project will serve as an aid in helping us decide which car to choose based on specs such as gas mileage, price, and amount of legroom. 
+This project will serve as an aid in helping my husband and I decide which car to choose based on specs such as gas mileage, price, and amount of legroom. 
 I have obtained two datasets. One that I created based on data from [Edmunds.com](https://www.edmunds.com/) called "Specs.xlsx" and another from Abhionlyone's Github repo [US-Car-Models-Data](https://github.com/abhionlyone/us-car-models-data) using the 2022.csv and adding a few makes and models from 2023. This file is "Cars_22-23.csv". 
 <br/>
 
