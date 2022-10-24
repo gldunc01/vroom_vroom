@@ -222,5 +222,3 @@ grid = gridplot([[plot1, plot2], [plot3, plot4]], width=700, height=300)
 
 #Show and save grid
 save(grid)
-
-#test
