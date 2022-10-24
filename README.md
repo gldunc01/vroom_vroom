@@ -65,6 +65,11 @@ The final plots break down our Top 8 car choices based on combined gas mileage, 
 After all this, we still do not have a clear winner and will use the test drive to solidify our choice. 
 <br/>
 <br/>
+
+<br/>
+
+![Cars2](/images/MSRP.png)
+<br/>
 **Plot 1:**
 <br/>
 ![Plot1](/images/MSRP.png)
@@ -80,3 +85,10 @@ After all this, we still do not have a clear winner and will use the test drive 
 **Plot 4:**
 <br/>
 ![Plot4](/images/Gas.png)
+
+
+Credits:
+<br/>
+Images: shutterstock.com, oerlive.com
+<br/>
+Data: Abhionlyone's Github, Edmunds.com
