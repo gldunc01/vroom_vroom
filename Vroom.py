@@ -80,19 +80,19 @@ my_choices_df
 
 #Plotting with Bokeh
 
-#Sorting my choices based on different sort values
+#Sorting my choices based on different sort values, this will be used to sort my plots.
 my_choices_Legroom_df = my_choices_df.sort_values(by='Combined_Legroom')
 my_choices_MSRP_df = my_choices_df.sort_values(by='MSRP')
 my_choices_MPG_df = my_choices_df.sort_values(by='Combined Gas')
 
 
-#Create ColumnDataSource from data frame
+#Create ColumnDataSource from data frame, this will allow me to bring in column names in my plots.
 source1 = ColumnDataSource(my_choices_MSRP_df)
 source2 = ColumnDataSource(master_2022_cars_df)
 source3 = ColumnDataSource(my_choices_Legroom_df)
 source4 = ColumnDataSource(my_choices_MPG_df)
 
-
+#Creating an output file, where the bokeh plots will be outputted to.
 output_file('index.html')
 
 #Car list
@@ -102,7 +102,7 @@ car_list3 = source3.data['Model'].tolist()
 car_list4 = source4.data['Model'].tolist()
 
 
-#Add plots
+#Add plots. Creating 4 different plots to be in my bokeh grid.
 
 #Plot #1
 plot1 = figure(
@@ -199,7 +199,7 @@ plot4.xgrid.grid_line_color = None
 
 
 
-#Add Tooltips
+#Add Tooltips. These tooltips will pop up an image of the car when a bar in the plot is hovered over.
 hover = HoverTool()
 hover.tooltips = """
     <div>
