@@ -68,7 +68,7 @@ After all this, we still do not have a clear winner and will use the test drive 
 
 <br/>
 
-![Cars2](/images/MSRP.png)
+![Cars2](/images/CarsLined.png)
 <br/>
 **Plot 1:**
 <br/>
