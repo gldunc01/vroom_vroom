@@ -66,25 +66,24 @@ After all this, we still do not have a clear winner and will use the test drive 
 <br/>
 <br/>
 
-<br/>
-
-![Cars2](/images/CarsLined.png)
-<br/>
 **Plot 1:**
 <br/>
-![Plot1](/images/MSRP.png)
+![Plot1](\images\MSRP.png)
 <br/>
+
 **Plot 2:**
 <br/>
-![Plot2](/images/Models.png)
+![Plot2](\images\Models.png)
 <br/>
+
 **Plot 3:**
 <br/>
-![Plot3](/images/Legroom.png)
+![Plot3](\images\Legroom.png)
 <br/>
+
 **Plot 4:**
 <br/>
-![Plot4](/images/Gas.png)
+![Plot4](\images\Gas.png)
 
 
 Credits:
