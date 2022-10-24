@@ -73,17 +73,17 @@ After all this, we still do not have a clear winner and will use the test drive 
 
 **Plot 2:**
 <br/>
-![Plot2](\images\Models.png)
+![Plot2](images/Models.jpg)
 <br/>
 
 **Plot 3:**
 <br/>
-![Plot3](\images\Legroom.png)
+![Plot3](images/Legroom.jpg)
 <br/>
 
 **Plot 4:**
 <br/>
-![Plot4](\images\Gas.png)
+![Plot4](images/Gas.jpg)
 
 
 Credits:
