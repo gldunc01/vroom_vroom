@@ -68,7 +68,7 @@ After all this, we still do not have a clear winner and will use the test drive 
 
 **Plot 1:**
 <br/>
-![Plot1](\images\MSRP.png)
+![Plot1](C:\Users\gduncan\Downloads\vroom_vroom\images\MSRP.png)
 <br/>
 
 **Plot 2:**
