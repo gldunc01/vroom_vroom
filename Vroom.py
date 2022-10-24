@@ -37,21 +37,23 @@ cars['model'].replace(to_replace="RX",
            value="RX 350", inplace=True)
 cars
 
-#Creating unique ID for join/merging
+#Creating unique ID for join/merging then removing trailing and leading empty spaces
 cars["Year_Make_Model"] = cars[['year', 'make', 'model']].agg('_'.join, axis=1)
-cars
-
-#Data Cleaning, removing trailing and leading empty spaces
 cars["Year_Make_Model"] = cars["Year_Make_Model"].str.strip()
 cars
 
-#Creating unique ID for join/merging
+#Data Cleaning, removing trailing and leading empty spaces
+#cars["Year_Make_Model"] = cars["Year_Make_Model"].str.strip()
+#cars
+
+#Creating unique ID for join/merging, then removing trailing and leading empty spaces
 specs["Year_Make_Model"] = specs[['Year', 'Make', 'Model']].agg('_'.join, axis=1)
+specs["Year_Make_Model"] = specs["Year_Make_Model"].str.strip()
 specs
 
 #Data Cleaning, removing trailing and leading empty spaces
-specs["Year_Make_Model"] = specs["Year_Make_Model"].str.strip()
-specs
+#specs["Year_Make_Model"] = specs["Year_Make_Model"].str.strip()
+#specs
 
 #Joining cars and specs based on year, make and model
 master_df=pd.merge(cars,specs, on='Year_Make_Model', how='left')
@@ -70,17 +72,18 @@ master_df
 #Number of models for each maker in 2022
 cars_2022_df = master_df[master_df["Year"] == "2022"]
 master_2022_cars_df = cars_2022_df['Make'].value_counts().rename_axis('Make').reset_index(name='Number of Models')
+master_2022_cars_df
 
 #Filtering to only see cars we are considering purchasing
 my_choices_df = master_df[master_df["Gwen's Choice"] == "Y"]
+my_choices_df
+
+#Plotting with Bokeh
 
 #Sorting my choices based on different sort values
 my_choices_Legroom_df = my_choices_df.sort_values(by='Combined_Legroom')
 my_choices_MSRP_df = my_choices_df.sort_values(by='MSRP')
 my_choices_MPG_df = my_choices_df.sort_values(by='Combined Gas')
-
-
-#Plotting with Bokeh
 
 
 #Create ColumnDataSource from data frame
@@ -149,6 +152,7 @@ plot2.y_range.start = 0
 plot2.xgrid.grid_line_color = None
 
 
+#Plot 3
 plot3 = figure(
        y_range=car_list3,
        #plot_width=800,
