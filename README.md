@@ -29,9 +29,6 @@ I have obtained two datasets. One that I created based on data from [Edmunds.com
 4. From within that directory pip install the requirements.txt file by running "pip install -r requirements.txt". This will make sure you have the necessary packages to run the program. For this program, we will be using these libraries:
 - Numpy
 - Pandas
-- Doctest
-- Turtle
-- Math
 - Matplotlib
 - Bokeh
 5. Now that you have installed the packages and you are in the directory, you can run the program directly from the command terminal by running "Vroom.py" or you can open your favorite IDE (I use VSCode), open the repo folder and run the Vroom.py program. Running the program will output an index.html file. This is where the Bokeh plots will be displayed. Open your favorite web browser (I use Chrome) and drag the index.html file to the web browsers address bar, click enter and this should take you to the visuals.
