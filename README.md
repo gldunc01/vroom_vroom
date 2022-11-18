@@ -44,6 +44,7 @@ I have obtained two datasets. One that I created based on data from [Edmunds.com
 3. Once you have navigated to the folder, from the file path line type "cmd" to bring up the command prompt in that directory.
 4. From the command line, run "jupyter notebook", this will open a browser window.
 5. From the browser window open "Vroom.ipynb", run this to run the program.
+6. Drag the index.html file from the directory into a web browser like Google Chrome's address line to view the visuals/charts.
 <br/>
 <br/>
 
